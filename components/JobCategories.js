@@ -1,5 +1,6 @@
 import { Popover, PopoverTrigger, PopoverContent, Grid, Box, Button, Text } from '@chakra-ui/react'
 import { FaBars } from 'react-icons/fa'
+import CategoryList from './CategoryList'
 
 
 function JobCategories() {
@@ -11,13 +12,7 @@ function JobCategories() {
                 </PopoverTrigger>
                 <PopoverContent bg="gray.100" width="auto">
                     <Grid templateColumns="repeat(4, 1fr)" gap={2} color="gray.700" p={2}>
-                        <Text>Accounts Jobs</Text>
-                        <Text>Architect Jobs</Text>
-                        <Text>Babysitting Jobs</Text>
-                        <Text>Beauticians Jobs</Text>
-                        <Text>BPO Jobs</Text>
-                        <Text>Car mechnics Jobs</Text>
-                        <Text>Carpentary Jobs</Text>
+                        <CategoryList />
                     </Grid>
                 </PopoverContent>
 
