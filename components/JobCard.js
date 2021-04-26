@@ -45,11 +45,11 @@ function JobCard() {
                 </Box>
             </Flex>
             <Flex justify="space-between" py="2">
-                <Box maxWidth="750px">
+                <Box maxWidth="650px">
                     <Text color="gray.500">Summary</Text>
                     <Text fontWeight="semibold" color="gray.800" isTruncated>Parterned with project teams to perform user-centered design activies that actively involve user</Text>
                 </Box>
-                <Button size="lg" rounded="md" bg="orange.500" color="white" rightIcon={<AiOutlineRight />} >
+                <Button size="md" rounded="sm" bg="orange.500" color="white" rightIcon={<AiOutlineRight />} >
                     Apply
                         </Button>
             </Flex>
