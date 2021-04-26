@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <>
       <TopHeader />
-      <SecondHeader />
+      <SecondHeader isIndex={true} />
     </>
   )
 }
