@@ -5,7 +5,7 @@ function JobDisplay(props) {
     return (
         <Box p={16} bg="gray.100">
             <Grid
-                templateColumns="repeat(5, 1fr)"
+                templateColumns="repeat(4, 1fr)"
                 gap={4}
             >
                 {

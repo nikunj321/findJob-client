@@ -7,11 +7,11 @@ import { AiOutlineShareAlt, AiOutlineRight } from 'react-icons/ai'
 function JobCard() {
     return (
         <GridItem
-            colSpan={4}
+            colSpan={3}
             bg="white"
             py={4}
             px={6}
-            rounded="md"
+            rounded="sm"
             boxShadow="base"
             cursor="pointer"
             _hover={{
