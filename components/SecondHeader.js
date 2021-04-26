@@ -15,10 +15,12 @@ function SecondHeader({ isIndex }) {
                 {isIndex && <JobCategories />}
                 <Spacer />
                 <Text>Job Seeker Login / Register</Text>
-                <ButtonGroup size="sm" isAttached variant="outline">
-                    <Employers />
-                    <Button>Buy Online</Button>
-                </ButtonGroup>
+                {isIndex && (
+                    <ButtonGroup size="sm" isAttached variant="outline">
+                        <Employers />
+                        <Button>Buy Online</Button>
+                    </ButtonGroup>
+                )}
             </HStack>
             <JobSearch isIndexPage={isIndex} />
         </Box >
